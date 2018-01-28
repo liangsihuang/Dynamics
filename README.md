@@ -52,6 +52,11 @@ damping.dat为Tsing Ma Bridge的实测数据，文件编码为ASCII码
 
 MATLAB矩阵的索引是()，定义是[]
 
+# MethodBasedOnInterpolationOfExcitation
+
+只能用于线性分析，因为使用了叠加原理。
+
+时间间隔必须相同。只要时间间隔足够小，结果比较精确。
 
 
 
