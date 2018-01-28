@@ -40,6 +40,18 @@
 对于建筑结构楼板的小阻尼情况，减小加速度：减小荷载频率更有效；减小位移：增大荷载频率更有效。
 对于大阻尼情况，要减小加速度，只能减小频率，但是有副作用：会增大位移。
 
+# FreeVibrationTest
+
+首先要fopen,获取fileID,才能读取数据
+
+读取数据的函数：textscan
+
+给图标注：text
+
+damping.dat为Tsing Ma Bridge的实测数据，文件编码为ASCII码
+
+MATLAB矩阵的索引是()，定义是[]
+
 
 
 
