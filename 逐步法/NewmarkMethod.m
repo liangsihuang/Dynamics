@@ -1,4 +1,10 @@
 function [u,v,a]=NewmarkMethod(gama,beta,p,t_aim,k,m,c,dt)
+% 输入：
+% 算法参数gama, beta，荷载向量p，需要计算到的反应时间点t_aim
+% 单质点体系的刚度k，质量m，阻尼c，计算时间间距dt
+% 输出：单质点体系的位移，速度，加速度反应向量
+
+% 若荷载持续时间比要计算到的时间短，需要在荷载向量后面补0
 n=length(p);
 nc=t_aim/dt;
 p_new=p;
